@@ -79,7 +79,7 @@ When the IDE opens:
 The explorer on the left will show the contents and structure of the FarmData2 repository. If you are familiar with other IDEs then using Theia should be relatively straight forward.
 
   - Resources:
-    - [How to use Eclipse Theia as an IDE](https://eclipsesource.com/blogs/2019/10/04/how-to-use-eclipse-theia-as-an-ide/): An overview of Theia and its use ad an Integrated Development Environment.
+    - [How to use Eclipse Theia as an IDE](https://eclipsesource.com/blogs/2019/10/04/how-to-use-eclipse-theia-as-an-ide/): An overview of Theia and its use as an Integrated Development Environment.
 
 As FarmData2 matures, utilities (e.g. linters and formatters) will be added to the provided Theia IDE. If you choose to use a different editor, all such utilities will be documented in the [INSTALL.md](INSTALL.md) file so that you can install the appropriate plugins for your editor.
 
@@ -158,7 +158,7 @@ The functionality of FarmData2 is tested using the [Cypress framework](https://w
 The Cypress end-to-end test framework works by controlling the web browser. A test typically consists of a series of steps that are automated by the Cypress tests, called _spec_s. A typical spec consist of the steps:
   1. Setup the test (e.g. login, prime the database)
   1. Visit a specific page
-  1. Query the page for an _html element_ of interest (e.g. button, ext field)
+  1. Query the page for an _html element_ of interest (e.g. button, text field)
   1. Interact with that element (e.g. click the button, enter some text)
   1. Make an assertion about the result (e.g. new information appears on the page)
 
@@ -175,7 +175,7 @@ The Cypress end-to-end test framework works by controlling the web browser. A te
 
 Cypress component tests work by mounting a Vue Component into a browser and allowing tests to interact with it in isolation from the application.  A typical comonent test will:
   1. Configuring and mounting the component into the test framework.
-  1. Query the component for an _html element_ of interest (e.g. button, ext field)
+  1. Query the component for an _html element_ of interest (e.g. button, text field)
   1. Interact with that element (e.g. click the button, enter some text)
   1. Make an assertion about the result (e.g. the component emits an event or changes state).
 
